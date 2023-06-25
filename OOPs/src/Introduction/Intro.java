@@ -21,8 +21,12 @@ public class Intro {
         Student st3=st;
         System.out.println(st3.roll+" "+st3.name+" "+st3 .marks);
 
+        System.out.println(st3);
 
+    }
 
+    public static void greet(){
+        System.out.println("Hello world");
     }
 }
 
